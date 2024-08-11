@@ -1,0 +1,68 @@
+$font-family-serif: "Kaisei Decol", serif;
+$font-family-sans: "Poppins", sans-serif;
+$background-color: rgba(24, 11, 1, 0.377);
+$primary-color: #ff3916;
+$breakpoint-mobile: 362px;
+
+.external {
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background-color: $background-color;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 1rem;
+  }
+
+  &__content {
+    width: 38rem;
+    font-family: $font-family-serif;
+    text-align: center;
+    font-weight: 400;
+
+    @media (max-width: $breakpoint-mobile) {
+      &__title-main {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  &__title-main {
+    font-size: 3.5rem;
+    text-transform: capitalize;
+  }
+
+  &__title-sub {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: $primary-color;
+    font-family: $font-family-sans;
+    letter-spacing: 1px;
+
+    &--underline {
+      text-decoration: underline;
+    }
+  }
+
+  &__button {
+    margin-top: 1rem;
+    background: none;
+    padding: 0.7rem;
+    border: 2px solid $primary-color;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    color: $primary-color;
+    font-family: $font-family-sans;
+    letter-spacing: 1px;
+
+    &:hover {
+      background: $primary-color;
+      color: white;
+    }
+  }
+}

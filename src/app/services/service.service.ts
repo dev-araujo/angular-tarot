@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable, of } from 'rxjs';
+import { filter, map, Observable, of } from 'rxjs';
 import tarot from '../../data/tarot.json';
 import { TarotCard } from '../models/tarot.interface';
 
@@ -13,6 +13,14 @@ export class ServiceService {
         ...card,
         backside: tarot.imageBackCard,
       }))
+    );
+  }
+
+  getOneCard(num: string): Observable<TarotCard | any> {
+    return this.getCards().pipe(
+      map((cards: TarotCard[]) => {
+        return cards.find((card) => card.number === num);
+      })
     );
   }
 }

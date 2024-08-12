@@ -1,7 +1,8 @@
 <section class="deck">
     <div class="deck__container">
-        @for ( card of deck | async; track card.id){
-        <figure class="deck__card" #tooltip="matTooltip" [matTooltip]="card.name" matTooltipPosition="right">
+        @for ( card of deck | async; track card.number){
+        <figure [routerLink]="['detalhes', card.number]" class="deck__card" #tooltip="matTooltip"
+            [matTooltip]="flipped ? card.name:null" matTooltipPosition="right">
             <img [src]="flipped ? card?.frontside:card?.backside" [alt]="card.name" />
         </figure>
         }

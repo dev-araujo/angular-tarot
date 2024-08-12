@@ -4,11 +4,12 @@ import { ServiceService } from '../../../services/service.service';
 import { MatTooltipModule } from '@angular/material/tooltip';
 
 import { Observable } from 'rxjs';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-deck',
   standalone: true,
-  imports: [NgFor, AsyncPipe, MatTooltipModule],
+  imports: [RouterLink, NgFor, AsyncPipe, MatTooltipModule],
   templateUrl: './deck.component.html',
   styleUrl: './deck.component.scss',
 })

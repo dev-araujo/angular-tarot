@@ -1,1 +1,8 @@
-<h1>{{(card | async)?.name}}</h1>
+<section class="card-info">
+    <div class="card-info__container">
+        <header>
+            <h1>{{ (card | async)?.name }}</h1>
+        </header>
+        <img src="{{ (card | async)?.frontside }}" alt="{{ (card | async)?.name }}" />
+    </div>
+</section>

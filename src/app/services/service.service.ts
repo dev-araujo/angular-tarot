@@ -16,6 +16,17 @@ export class ServiceService {
     );
   }
 
+  shuffle(): Observable<TarotCard[]> {
+    return this.getCards().pipe(
+      map((cards: TarotCard[]) =>
+        cards
+          .map((value: TarotCard) => ({ value, sort: Math.random() }))
+          .sort((a, b) => a.sort - b.sort)
+          .map(({ value }) => value)
+      )
+    );
+  }
+
   getOneCard(num: string): Observable<TarotCard | any> {
     return this.getCards().pipe(
       map((cards: TarotCard[]) => {

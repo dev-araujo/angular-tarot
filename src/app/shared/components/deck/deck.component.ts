@@ -1,5 +1,5 @@
 import { AsyncPipe, NgFor } from '@angular/common';
-import { Component, inject, Input } from '@angular/core';
+import { Component, inject, Input, SimpleChanges } from '@angular/core';
 import { ServiceService } from '../../../services/service.service';
 import { MatTooltipModule } from '@angular/material/tooltip';
 
@@ -21,5 +21,11 @@ export class DeckComponent {
 
   ngOnInit(): void {
     this.deck = this.service.getCards();
+  }
+
+  ngOnChanges(changes: SimpleChanges): void {
+    if (changes['flipped'] && !changes['flipped']['currentValue']) {
+      this.deck = this.service.shuffle();
+    }
   }
 }

@@ -35,6 +35,8 @@ $breakpoint-mobile: 362px;
   &__title-main {
     font-size: 3.5rem;
     text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
   }
 
   &__title-sub {
@@ -43,6 +45,7 @@ $breakpoint-mobile: 362px;
     color: $primary-color;
     font-family: $font-family-sans;
     letter-spacing: 1px;
+    font-weight: 600;
 
     &--underline {
       text-decoration: underline;

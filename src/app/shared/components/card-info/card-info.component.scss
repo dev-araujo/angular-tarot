@@ -1,0 +1,29 @@
+.card-info {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+
+  &__container {
+    background: rgba(24, 11, 1, 0.226);
+    padding: 0 80px 0 80px;
+
+    width: 480px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    header {
+      h1 {
+        font-family: "Bentham", serif;
+        font-weight: 400;
+        font-size: 3.84rem;
+        text-transform: uppercase;
+      }
+    }
+
+    img {
+      border-radius: 20px;
+    }
+  }
+}

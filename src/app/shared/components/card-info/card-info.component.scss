@@ -1,3 +1,31 @@
+$font-family-sans: "Poppins", sans-serif;
+$primary-color: #ff3916;
+
+.card-header {
+  width: auto;
+  position: absolute;
+  right: 0px;
+
+  button {
+    position: relative;
+    right: 14px;
+    top: 12px;
+    background: black;
+    padding: 0.7rem;
+    border: 2px solid $primary-color;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    color: $primary-color;
+    font-family: $font-family-sans;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+    &:hover {
+      background: $primary-color;
+      color: white;
+    }
+  }
+}
 .card-info {
   width: 100vw;
   display: flex;

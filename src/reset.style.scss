@@ -16,6 +16,20 @@
   background: #f4583d;
   color: white;
 }
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,

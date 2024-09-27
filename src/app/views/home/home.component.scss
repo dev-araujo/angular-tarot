@@ -7,9 +7,11 @@ $background-color: rgba(24, 11, 1, 0.377);
 .home {
   background-color: $background-color;
   width: 100vw;
+  height: 100vh;
 
   &__header {
     text-align: center;
+    padding-bottom: 1rem;
 
     h1 {
       font-family: $font-family-serif;

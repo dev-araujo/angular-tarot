@@ -32,26 +32,59 @@ $primary-color: #ff3916;
   justify-content: center;
 
   &__container {
-    background: rgba(24, 11, 1, 0.226);
-    padding: 0 80px 0 80px;
-
     width: 480px;
-    flex-direction: column;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    header {
-      h1 {
-        font-family: "Bentham", serif;
-        font-weight: 400;
-        font-size: 3.4rem;
-        text-transform: uppercase;
+    figure {
+      img {
+        border-radius: 20px;
       }
     }
 
-    img {
-      border-radius: 20px;
+    &__content {
+      height: 100%;
+
+      header {
+        background: #f4583d;
+        margin-top: 3rem;
+        margin-left: 4rem;
+        text-wrap: nowrap;
+        h1 {
+          font-family: "Alice", serif;
+          font-weight: 400;
+          font-size: 3.4rem;
+          text-transform: uppercase;
+        }
+      }
+
+      &__meanings {
+        background: #fde7cf;
+        color: #1c0200;
+        padding: 0 12px 0 12px;
+        border-radius: 14px;
+        margin-left: 4rem;
+
+        display: flex;
+        justify-content: space-between;
+
+        div {
+          width: 50%;
+        }
+
+        h2 {
+          font-family: "Cinzel Decorative", serif;
+          font-weight: 600;
+        }
+      }
     }
   }
+}
+
+.box-content {
+  background: rgba(24, 11, 1, 0.226);
+  padding: 0 12px 0 12px;
+  border-radius: 14px;
 }

@@ -1,14 +1,14 @@
 import { Component, inject } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { ServiceService } from '../../../services/service.service';
-import { AsyncPipe, JsonPipe, NgIf } from '@angular/common';
+import { AsyncPipe, JsonPipe, NgFor, NgIf } from '@angular/common';
 import { Observable } from 'rxjs';
 import { TarotCard } from '../../../models/tarot.interface';
 
 @Component({
   selector: 'app-card-info',
   standalone: true,
-  imports: [AsyncPipe, NgIf, JsonPipe, RouterLink],
+  imports: [AsyncPipe, NgIf, JsonPipe, RouterLink, NgFor],
   templateUrl: './card-info.component.html',
   styleUrl: './card-info.component.scss',
 })

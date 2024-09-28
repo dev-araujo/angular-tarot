@@ -1,12 +1,48 @@
 <header class="card-header">
-    <button [routerLink]="['/tarot']"><i class='bx bx-left-arrow-alt'></i> voltar</button>
+  <button [routerLink]="['/tarot']"><i class='bx bx-left-arrow-alt'></i> voltar</button>
 </header>
 
 <section class="card-info">
-    <div class="card-info__container">
-        <header>
-            <h1>{{ (card | async)?.name }}</h1>
-        </header>
-        <img src="{{ (card | async)?.frontside }}" alt="{{ (card | async)?.name }}" />
-    </div>
+  <div class="card-info__container">
+    <figure>
+      <img src="{{ (card | async)?.frontside }}" alt="{{ (card | async)?.name }}" />
+    </figure>
+
+
+    <section class="card-info__container__content">
+      <header class="box-content">
+        <h1>{{ (card | async)?.name }}</h1>
+      </header>
+
+      <section class="card-info__container__content__meanings">
+        <div>
+          <h2>Light</h2>
+
+          <ul>
+            @for (mean of (card | async)?.meanings.light; track mean.number){
+
+            <li>- {{mean}}</li>
+            }
+          </ul>
+
+        </div>
+
+        <div>
+          <h2>Shadow</h2>
+
+
+          <ul>
+            @for (mean of (card | async)?.meanings.shadow; track mean.number){
+
+            <li>- {{mean}}</li>
+            }
+          </ul>
+
+        </div>
+
+
+      </section>
+    </section>
+
+  </div>
 </section>

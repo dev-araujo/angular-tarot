@@ -36,7 +36,7 @@
         ]
       },
       "Archetype": "The Divine Madman",
-      "Hebrew Alphabet": "Aleph/Ox/1",
+      "hebrew": "Aleph/Ox/1",
       "Numerology": "0 (off the scale; pure potential)",
       "Elemental": "Air",
       "Mythical/Spiritual": "Adam before the fall. Christ as a wandering holy madman. Deity wrapped in human flesh. The Holy Spirit.",
@@ -76,7 +76,7 @@
         ]
       },
       "Archetype": "The Ego/The Self",
-      "Hebrew Alphabet": "Beth/House/2",
+      "hebrew": "Beth/House/2",
       "Numerology": "1 (origins, unity, seeds)",
       "Elemental": "The Sun/Mercury",
       "Mythical/Spiritual": "Thoth, the Egyptian god of wisdom, known to the Greeks as Hermes and to the Romans as Mercury. Christ working miracles. Brahma, the Creator.",
@@ -118,9 +118,9 @@
         ]
       },
       "Archetype": "The Virgin/The Maiden",
-      "Hebrew Alphabet": "Gimel/Camel/3",
+      "hebrew": "Gimel/Camel/3",
       "Numerology": "2 (division, debate, duality)",
-      "Elemental": "The Moon",
+      "Elemental": "moon",
       "Mythical/Spiritual": "The feminine aspect of divinity, particularity when expressed through virginity, as with the Virgin Mary or Isis.",
       "Questions to Ask": [
         "What might a rebel against tradition do?",
@@ -161,7 +161,7 @@
         ]
       },
       "Archetype": "The Mother",
-      "Hebrew Alphabet": "Daleth/Door/4",
+      "hebrew": "Daleth/Door/4",
       "Numerology": "3 (expression, productivity, output)",
       "Elemental": "Venus",
       "Mythical/Spiritual": "Gaia, Mother Earth, Ishtar, DemeterÑmature, reproductive female divinity in every form. Also Aphrodite and Turan. ",
@@ -201,7 +201,7 @@
         ]
       },
       "Archetype": "The Father",
-      "Hebrew Alphabet": "He[as]/Window/5, or in some decks, Tzaddi/Fish hook/90",
+      "hebrew": "He[as]/Window/5, or in some decks, Tzaddi/Fish hook/90",
       "Numerology": "4 (stability, equality, persistence)",
       "Elemental": "Mars/Aries",
       "Mythical/Spiritual": "Masculine gods, including the Hebrew God, the Christian God, Allah, and Zeus. Patriarchs (Abraham) and lawgivers (Moses). Vishnu, the Preserver.",
@@ -243,7 +243,7 @@
         ]
       },
       "Archetype": "The Guardian/The Church/Faith",
-      "Hebrew Alphabet": "Vau/Nail or Spike/6",
+      "hebrew": "Vau/Nail or Spike/6",
       "Numerology": "5 (instability, resistance, confrontation, evolution)",
       "Elemental": "Taurus/Earth",
       "Mythical/Spiritual": "The Christ, the Apostle Peter, Buddha, Mohammed. Popes, priests, and intercessors of every faith and tradition",
@@ -285,7 +285,7 @@
         ]
       },
       "Archetype": "The Lover/Sexual Awakening",
-      "Hebrew Alphabet": "Zain/Sword/7",
+      "hebrew": "Zain/Sword/7",
       "Numerology": "6 (cooperation, collaboration, interaction)",
       "Elemental": "Gemini",
       "Mythical/Spiritual": "Obviously, Adam and Eve, who are depicted in RWS-influenced decks. Also Venus and Cupid, Aphrodite and Eros.",
@@ -325,7 +325,7 @@
         ]
       },
       "Archetype": "The Victorious Hero",
-      "Hebrew Alphabet": "Cheth/Fence/8",
+      "hebrew": "Cheth/Fence/8",
       "Numerology": "7 (imagination, inner work, psychology)",
       "Elemental": "Cancer",
       "Mythical/Spiritual": "Odysseus. Jason. The search for the Holy Grail. Christ's triumphal entry into Jerusalem.",
@@ -368,7 +368,7 @@
         ]
       },
       "Archetype": "The Law",
-      "Hebrew Alphabet": "Lamed/Outstretched Arms/30 or Theth/Snake/9",
+      "hebrew": "Lamed/Outstretched Arms/30 or Theth/Snake/9",
       "Numerology": "8 (movement, work) or 11 = 1 + 1 = 2 (debate, duality)",
       "Elemental": "Libra or Leo",
       "Mythical/Spiritual": "Themis or Justitia. Ma'at. Solomon dividing a baby. The Sword of Damocles. The giving of the Ten Commandments.",
@@ -408,7 +408,7 @@
         ]
       },
       "Archetype": "The Holy Man",
-      "Hebrew Alphabet": "Yod/Hand/10",
+      "hebrew": "Yod/Hand/10",
       "Numerology": "9 (fullness, readiness, ripeness)",
       "Elemental": "Virgo",
       "Mythical/Spiritual": "The Christ, while fasting 40 days in the wilderness. Chronos, the god of time. Father Time. Hermes.",
@@ -453,7 +453,7 @@
         ]
       },
       "Archetype": "The Fates/Destiny",
-      "Hebrew Alphabet": "Koph/Palm/20",
+      "hebrew": "Koph/Palm/20",
       "Numerology": "10 (finality, completion) and 10 = 1 + 0 = 1 (seed, opportunity)",
       "Elemental": "Jupiter",
       "Mythical/Spiritual": "The God in the Machine. Deus ex Machina. Clotho, Lachesis, and Atropos. Fortuna.",
@@ -494,7 +494,7 @@
         ]
       },
       "Archetype": "The Id",
-      "Hebrew Alphabet": "Theth/Snake/9 or Lamed/Outstretched Arms/30",
+      "hebrew": "Theth/Snake/9 or Lamed/Outstretched Arms/30",
       "Numerology": "11 = 1 + 1 = 2 (debate, duality) or 8 (movement, outer work)",
       "Elemental": "Leo or Libra",
       "Mythical/Spiritual": "Samson. Hercules. Daniel in the lion's den. The sinless Christ.",
@@ -541,7 +541,7 @@
         ]
       },
       "Archetype": "The Traitor",
-      "Hebrew Alphabet": "Mem/Water/40",
+      "hebrew": "Mem/Water/40",
       "Numerology": "12 = 1 + 2 = 3 (expression, productivity, output)",
       "Elemental": "Water",
       "Mythical/Spiritual": "The Crucified Christ. Isaac as a sacrifice. Prometheus bound. Jonah and the whale. Lazarus. Any hanged or sacrificed god. Judas.",
@@ -586,7 +586,7 @@
         ]
       },
       "Archetype": "Death",
-      "Hebrew Alphabet": "Nun/Fish/50",
+      "hebrew": "Nun/Fish/50",
       "Numerology": "13 = 1 + 3 = 4 (stability, persistence)",
       "Elemental": "Scorpio",
       "Mythical/Spiritual": "Christ in the tomb. Hades. Hypnos. Thanatos. Stories of journeys into the underworld.",
@@ -634,7 +634,7 @@
         ]
       },
       "Archetype": "The Mediator",
-      "Hebrew Alphabet": "Samekh/Foundation/60",
+      "hebrew": "Samekh/Foundation/60",
       "Numerology": "14 = 1 + 4 = 5 (catalyst, instability, confrontation)",
       "Elemental": "Sagittarius",
       "Mythical/Spiritual": "The angel seen here may be the goddess Iris. By extension, priests, priesthoods, or the transfigured Christ.",
@@ -676,7 +676,7 @@
         ]
       },
       "Archetype": "The Shadow, The Other",
-      "Hebrew Alphabet": "Ayin/Eye/70",
+      "hebrew": "Ayin/Eye/70",
       "Numerology": "15 = 1 + 5 = 6 (adjustment, collaboration)",
       "Elemental": "Capricorn",
       "Mythical/Spiritual": "The Biblical Satan, certainly. Fallen angels, including Lucifer. Bacchus and Pan. Tempters and serpents of every stripe.",
@@ -724,7 +724,7 @@
         ]
       },
       "Archetype": "The Shattered Ego",
-      "Hebrew Alphabet": "Pe[as]/Open Mouth/80",
+      "hebrew": "Pe[as]/Open Mouth/80",
       "Numerology": "16 = 1 + 6 = 7 (psychology, imagination, inner work)",
       "Elemental": "Mars",
       "Mythical/Spiritual": "The Tower of Babel. The destruction of Sodom and Gomorrah. Shiva's destructive dance. The lightning of Zeus and Thor.",
@@ -774,7 +774,7 @@
         ]
       },
       "Archetype": "The Heavenly Guide",
-      "Hebrew Alphabet": "Tzaddi/Fishhook/90 or, in some decks, He[as]/Window/5",
+      "hebrew": "Tzaddi/Fishhook/90 or, in some decks, He[as]/Window/5",
       "Numerology": "17 = 1 + 7 = 8 (action, movement, swiftness)",
       "Elemental": "Aquarius",
       "Mythical/Spiritual": "The star that guided the Magi. Aphrodite. Venus. The Pleiades. Moses bringing forth water from the rock.",
@@ -820,7 +820,7 @@
         ]
       },
       "Archetype": "The Holy Feminine/The Crone",
-      "Hebrew Alphabet": "Koph/Back of the Head/100",
+      "hebrew": "Koph/Back of the Head/100",
       "Numerology": "18 = 1 + 8 = 9 (fullness, readiness, ripeness)",
       "Elemental": "Pisces",
       "Mythical/Spiritual": "Kali, the dark-skinned divine mother associated with time, the eternal night, and the female principle. Hecate, goddess of night and darkness, who, like Anubis, assists others in their travels to the underworld. ",
@@ -859,7 +859,7 @@
         ]
       },
       "Archetype": "The Holy Masculine",
-      "Hebrew Alphabet": "Resh/Head/200",
+      "hebrew": "Resh/Head/200",
       "Numerology": "19 = 1 + 9 = 10 (completion, exhaustion) 1 + 0 = 1 (starting point, opportunity)",
       "Elemental": "The Sun",
       "Mythical/Spiritual": "God the Father. Sun gods, including Ra, Apollo, and Helios. The moment of baptism. Claiming a new faith as your own.",
@@ -906,7 +906,7 @@
         ]
       },
       "Archetype": "Resurrection",
-      "Hebrew Alphabet": "Sin/Tooth/300",
+      "hebrew": "Sin/Tooth/300",
       "Numerology": "20 = 2 + 0 = 2 (division, duality)",
       "Elemental": "Fire",
       "Mythical/Spiritual": "The resurrected Christ. The Last Judgment of Revelation. The phoenix, which rises to new life from its own ashes.",
@@ -952,7 +952,7 @@
         ]
       },
       "Archetype": "Enlightenment",
-      "Hebrew Alphabet": "Tau/Cross/400",
+      "hebrew": "Tau/Cross/400",
       "Numerology": "21 = 2 + 1 = 3 (expression, result)",
       "Elemental": "Saturn",
       "Mythical/Spiritual": "The ascended Christ. The Buddha attaining enlightenment. The alpha and the omega. The completion of the alchemist's great work.",

@@ -4,11 +4,12 @@ import { ServiceService } from '../../../services/service.service';
 import { AsyncPipe, JsonPipe, NgFor, NgIf } from '@angular/common';
 import { Observable } from 'rxjs';
 import { TarotCard } from '../../../models/tarot.interface';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 @Component({
   selector: 'app-card-info',
   standalone: true,
-  imports: [AsyncPipe, NgIf, JsonPipe, RouterLink, NgFor],
+  imports: [AsyncPipe, NgIf, JsonPipe, RouterLink, NgFor, MatTooltipModule],
   templateUrl: './card-info.component.html',
   styleUrl: './card-info.component.scss',
 })

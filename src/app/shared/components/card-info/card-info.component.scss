@@ -1,6 +1,14 @@
 $font-family-sans: "Poppins", sans-serif;
 $primary-color: #ff3916;
 
+@mixin boxs {
+  width: 520px;
+  background: #fde7cf;
+  color: #1c0200;
+
+  margin-left: 4rem;
+}
+
 .card-header {
   width: auto;
   position: absolute;
@@ -60,18 +68,67 @@ $primary-color: #ff3916;
         }
       }
 
-      &__meanings {
-        background: #fde7cf;
-        color: #1c0200;
-        padding: 0 12px 0 12px;
+      &__topics {
+        @include boxs;
         border-radius: 14px;
-        margin-left: 4rem;
+        margin-bottom: 1rem;
 
+        .topics-container {
+          display: flex;
+          flex-direction: column;
+          padding: 14px;
+
+          .content-container {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 16px;
+
+            div {
+              width: 50%;
+              text-wrap: nowrap;
+              font-weight: 600;
+              font-family: "Alice", serif;
+
+              span {
+                font-size: 14px;
+                font-weight: 400;
+                font-family: Roboto, "Helvetica Neue", sans-serif;
+              }
+            }
+          }
+        }
+
+        footer {
+          text-align: center;
+          padding-bottom: 4px;
+          font-weight: 600;
+          font-family: "Alice", serif;
+
+          span {
+            font-size: 14px;
+            font-weight: 400;
+            font-family: Roboto, "Helvetica Neue", sans-serif;
+          }
+        }
+      }
+
+      &__meanings {
+        @include boxs;
+        border-radius: 14px;
         display: flex;
         justify-content: space-between;
+        position: relative;
 
-        div {
+        .shadow,
+        .light {
           width: 50%;
+          padding: 14px;
+        }
+        .light {
+          background: #1c0200;
+          color: #fde7cf;
+          border-top-left-radius: 14px;
+          border-bottom-left-radius: 14px;
         }
 
         h2 {

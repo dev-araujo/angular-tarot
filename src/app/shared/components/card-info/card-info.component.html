@@ -1,5 +1,7 @@
 <header class="card-header">
-  <button [routerLink]="['/tarot']"><i class='bx bx-left-arrow-alt'></i> voltar</button>
+  <button [routerLink]="['/tarot']">
+    <i class="bx bx-left-arrow-alt"></i> voltar
+  </button>
 </header>
 
 <section class="card-info">
@@ -8,41 +10,50 @@
       <img src="{{ (card | async)?.frontside }}" alt="{{ (card | async)?.name }}" />
     </figure>
 
-
     <section class="card-info__container__content">
       <header class="box-content">
         <h1>{{ (card | async)?.name }}</h1>
       </header>
 
+      <section class="card-info__container__content__topics">
+        <div class="topics-container">
+          <div class="content-container">
+            <div><span>Elemental</span>: {{ (card | async)?.Elemental }}</div>
+            <div><span>Archetype</span>: {{ (card | async)?.Archetype }}</div>
+          </div>
+
+          <div class="content-container">
+            <div><span>Number</span>: {{ (card | async)?.number }}</div>
+            <div>
+              <span>Hebrew Alphabet:</span> {{ (card | async)?.hebrew }}
+            </div>
+          </div>
+        </div>
+
+        <footer>
+          <span>Numerology</span>: {{ (card | async)?.Numerology }}
+        </footer>
+      </section>
+
       <section class="card-info__container__content__meanings">
-        <div>
+        <div class="light">
           <h2>Light</h2>
-
           <ul>
-            @for (mean of (card | async)?.meanings.light; track mean.number){
-
-            <li>- {{mean}}</li>
+            @for (mean of (card | async)?.meanings.light; track mean ){
+            <li>- {{ mean }}</li>
             }
           </ul>
-
         </div>
 
-        <div>
+        <div class="shadow">
           <h2>Shadow</h2>
-
-
           <ul>
-            @for (mean of (card | async)?.meanings.shadow; track mean.number){
-
-            <li>- {{mean}}</li>
+            @for (mean of (card | async)?.meanings.shadow; track mean){
+            <li>- {{ mean }}</li>
             }
           </ul>
-
         </div>
-
-
       </section>
     </section>
-
   </div>
 </section>

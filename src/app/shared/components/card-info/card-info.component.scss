@@ -5,7 +5,6 @@ $primary-color: #ff3916;
   width: 520px;
   background: #fde7cf;
   color: #1c0200;
-
   margin-left: 4rem;
 }
 
@@ -34,6 +33,7 @@ $primary-color: #ff3916;
     }
   }
 }
+
 .card-info {
   width: 100vw;
   display: flex;
@@ -60,6 +60,7 @@ $primary-color: #ff3916;
         margin-top: 3rem;
         margin-left: 4rem;
         text-wrap: nowrap;
+
         h1 {
           font-family: "Alice", serif;
           font-weight: 400;
@@ -76,21 +77,25 @@ $primary-color: #ff3916;
         .topics-container {
           display: flex;
           flex-direction: column;
+          align-items: flex-start;
           padding: 14px;
+          word-wrap: break-word;
+          overflow-wrap: break-word;
 
           .content-container {
+            width: 100%;
             display: flex;
             justify-content: space-between;
             padding-right: 16px;
 
             div {
-              width: 50%;
-              text-wrap: nowrap;
               font-weight: 600;
               font-family: "Alice", serif;
+              border-right: 1px solid #1c0200;
+              padding-right: 4px;
+              height: 18px;
 
               span {
-                font-size: 14px;
                 font-weight: 400;
                 font-family: Roboto, "Helvetica Neue", sans-serif;
               }
@@ -103,6 +108,10 @@ $primary-color: #ff3916;
           padding-bottom: 4px;
           font-weight: 600;
           font-family: "Alice", serif;
+          padding: 3px;
+
+          word-wrap: break-word;
+          overflow-wrap: break-word;
 
           span {
             font-size: 14px;
@@ -124,6 +133,7 @@ $primary-color: #ff3916;
           width: 50%;
           padding: 14px;
         }
+
         .light {
           background: #1c0200;
           color: #fde7cf;

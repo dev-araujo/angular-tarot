@@ -18,19 +18,18 @@
       <section class="card-info__container__content__topics">
         <div class="topics-container">
           <div class="content-container">
-            <div><span>Elemental</span>: {{ (card | async)?.Elemental }}</div>
-            <div><span>Archetype</span>: {{ (card | async)?.Archetype }}</div>
-          </div>
-
-          <div class="content-container">
-            <div><span>Number</span>: {{ (card | async)?.number }}</div>
-            <div>
-              <span>Hebrew Alphabet:</span> {{ (card | async)?.hebrew }}
+            <div><span>Elemental</span>: {{ (card | async)?.Elemental}}</div>
+            <div><span>Number</span>: {{ (card | async)?.number }} </div>
+            <div #tooltip="matTooltip" [matTooltip]="(card | async)?.Archetype?.length > maxSize ? (card |
+              async)?.Archetype:''" [matTooltipPosition]="'above'">
+              <span>Archetype</span>: {{ (card | async)?.Archetype?.length > maxSize ? (card |
+              async)?.Archetype?.substring(0,maxSize):(card | async)?.Archetype }}
             </div>
           </div>
         </div>
 
         <footer>
+          <div><span>Hebrew Alphabet:</span> {{ (card | async)?.hebrew }}</div>
           <span>Numerology</span>: {{ (card | async)?.Numerology }}
         </footer>
       </section>

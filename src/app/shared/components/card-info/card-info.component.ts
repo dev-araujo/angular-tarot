@@ -16,6 +16,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 export class CardInfoComponent {
   cardNumber!: string;
   card!: Observable<TarotCard | any>;
+  readonly maxSize = 10;
 
   constructor(private router: Router, private service: ServiceService) {
     this.getInfoUrl();
